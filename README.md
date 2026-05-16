@@ -1,20 +1,13 @@
 # Data Cleaning & Preparation with Pandas
 
-This project is part of the Data Analytics Internship Project 1 at DecodeLabs.
+This project is part of the DecodeLabs Data Analytics Internship.
 
-The objective of this project is to clean and prepare raw datasets using Python and Pandas by handling missing values, removing duplicates, and correcting incorrect data formats.
+## Objective
 
----
-
-## Project Objectives
-
-- Identify missing/null values
-- Remove duplicate records
-- Correct incorrect date and number formats
-- Validate dataset integrity
-- Create a cleaned dataset ready for analysis
-
----
+Clean and prepare raw datasets by:
+- Handling missing values
+- Removing duplicates
+- Correcting incorrect formats
 
 ## Technologies Used
 
@@ -22,21 +15,15 @@ The objective of this project is to clean and prepare raw datasets using Python 
 - Pandas
 - VS Code
 
----
-
 ## Features
 
-✔ Detects missing values  
-✔ Removes duplicate rows  
-✔ Fixes invalid date formats  
-✔ Ensures unique IDs  
-✔ Exports cleaned dataset  
+- Detects missing values
+- Removes duplicate rows
+- Fixes date formats
+- Validates unique IDs
+- Exports cleaned dataset
 
----
-
-## Installation
-
-Clone the repository:
+## Run the Project
 
 ```bash
-git clone https://github.com/shaktidevkota/pandas.git
+python test.py
